@@ -14,7 +14,13 @@
 body{
     
     font-family: 'Gilroy';
-    background-image: url("background.jpg");
+    background-color: rgb(7, 26, 43);
+    
+    
+   
+   
+    
+   
 }
 
 *{
@@ -46,7 +52,7 @@ input[type=number] {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    background-color:rgba(149, 187, 191, 0.516);
+    background-color:rgb(18, 42, 70);
 }
 
 .budget-container .app-title{
@@ -75,7 +81,7 @@ input[type=number] {
 }
 
 .budget-header .balance .value{
-    color: #FFF;
+    color: rgb(240, 204, 47);
     font-size: 2em;
     margin-top: 10px;
     font-family: 'Gilroy Bold';
@@ -103,7 +109,7 @@ input[type=number] {
     
 }
 .budget-header .account .income .income-total{
-    color:blue;
+    color:rgb(0, 204, 255);
     font-family: 'Gilroy Bold';
 }
 
